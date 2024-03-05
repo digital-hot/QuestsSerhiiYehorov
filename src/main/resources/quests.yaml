@@ -1,0 +1,179 @@
+Quest1:
+  id: "Quest1"
+  title: "Виклик НЛО"
+  question:
+    id: "question1"
+    title: "Ви втрачаєте память. Прийняти виклик?"
+    decisions:
+      decision1:
+        id: "decision1"
+        title: "Прийняти виклик"
+        nextQuestion:
+          id: "question2"
+          title: "Ви прийняли виклик. Піднятися на капітанський місток?"
+          decisions:
+            decision2:
+              id: "decision2"
+              title: "Піднятися на місток"
+              nextQuestion:
+                id: "question3"
+                title: "Ви піднялись на місток. Хто ви?"
+                decisions:
+                  decision3:
+                    id: "decision3"
+                    title: "Розповісти правду про себе"
+                    nextQuestion:
+                      id: "question4"
+                      title: "Вас повернули додому. Перемога"
+                      won: true
+                      decisions: null
+                  decision5:
+                    id: "decision5"
+                    title: "Збрехати про себе"
+                    nextQuestion:
+                      id: "question5"
+                      title: "Ваша брехня була викрита. Поразка"
+                      decisions: null
+            decision6:
+              id: "decision6"
+              title: "Відмовитись піднятися на місток"
+              nextQuestion:
+                id: "question6"
+                title: "Ви не пішли на переговори. Поразка"
+                decisions: null
+      decision7:
+        id: "decision7"
+        title: "Відхилити виклик"
+        nextQuestion:
+          id: "question7"
+          title: "Ви відхилили виклик. Поразка"
+          decisions: null
+Quest2:
+  id: "Quest2"
+  title: "Новий квест"
+  question:
+    id: "question8"
+    title: "Це нове питання. Прийняти виклик?"
+    decisions:
+      decision8:
+        id: "decision8"
+        title: "Так"
+        nextQuestion:
+          id: "question9"
+          title: "Ви прийняли виклик. Що робити далі?"
+          decisions:
+            decision9:
+              id: "decision9"
+              title: "Зробити це"
+              nextQuestion:
+                id: "question10"
+                title: "Ви виконали завдання. Перемога"
+                won: true
+                decisions: null
+            decision10:
+              id: "decision10"
+              title: "Відмовитись"
+              nextQuestion:
+                id: "question11"
+                title: "Ви відмовилися. Поразка"
+                decisions: null
+      decision11:
+        id: "decision11"
+        title: "Ні"
+        nextQuestion:
+          id: "question12"
+          title: "Ви відмовилися. Поразка"
+          decisions: null
+Quest3:
+  id: "Quest3"
+  title: "Пошук скарбів"
+  question:
+    id: "question13"
+    title: "Ви вирішили підкорити гори. Що ви берете з собою?"
+    decisions:
+      decision12:
+        id: "decision12"
+        title: "Компас"
+        nextQuestion:
+          id: "question14"
+          title: "Ви правильно обрали. Куди тепер?"
+          decisions:
+            decision13:
+              id: "decision13"
+              title: "Вершина гори"
+              nextQuestion:
+                id: "question15"
+                title: "Ви піднялись на вершину. Чи знайшли ви там скарб?"
+                decisions:
+                  decision14:
+                    id: "decision14"
+                    title: "Так"
+                    nextQuestion:
+                      id: "question16"
+                      title: "Ви знайшли скарб. Перемога"
+                      won: true
+                      decisions: null
+                  decision15:
+                    id: "decision15"
+                    title: "Ні"
+                    nextQuestion:
+                      id: "question17"
+                      title: "Шукайте далі"
+                      decisions: null
+            decision16:
+              id: "decision16"
+              title: "Печера"
+              nextQuestion:
+                id: "question18"
+                title: "Ви потрапили у печеру. Що далі?"
+                decisions:
+                  decision17:
+                    id: "decision17"
+                    title: "Шукати вихід"
+                    nextQuestion:
+                      id: "question19"
+                      title: "Ви знайшли вихід. Чи знайшли ви скарб на виході?"
+                      decisions:
+                        decision18:
+                          id: "decision18"
+                          title: "Так"
+                          nextQuestion:
+                            id: "question20"
+                            title: "Ви знайшли скарб. Перемога"
+                            decisions: null
+                        decision19:
+                          id: "decision19"
+                          title: "Ні"
+                          nextQuestion:
+                            id: "question21"
+                            title: "Вам потрібно далі шукати"
+                            decisions: null
+                  decision20:
+                    id: "decision20"
+                    title: "Пошукати в печері"
+                    nextQuestion:
+                      id: "question22"
+                      title: "Ви не знайшли нічого корисного. Поразка"
+                      decisions: null
+      decision21:
+        id: "decision21"
+        title: "Трюфелі"
+        nextQuestion:
+          id: "question23"
+          title: "Ви вирішили знайти трюфелі. Чи вдалося вам це?"
+          decisions:
+            decision22:
+              id: "decision22"
+              title: "Так"
+              nextQuestion:
+                id: "question24"
+                title: "Ви знайшли трюфелі. Перемога"
+                won: true
+                decisions: null
+            decision23:
+              id: "decision23"
+              title: "Ні"
+              nextQuestion:
+                id: "question25"
+                title: "Вам не вдалося знайти трюфелі. Поразка"
+                decisions: null
