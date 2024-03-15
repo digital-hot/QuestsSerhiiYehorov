@@ -5,7 +5,7 @@
   <artifactId>QuestsSerhiiYehorov</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>QuestsSerhiiYehorov Maven Webapp</name>
+  <name>QuestsSerhiiYehorov</name>
   <url>https://maven.apache.org</url>
   <dependencies>
     <dependency>
